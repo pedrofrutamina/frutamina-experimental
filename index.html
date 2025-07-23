@@ -458,7 +458,12 @@
               <h3>Fale Conosco</h3>
               <p>Envie sua mensagem e nossa equipe responderá o mais breve possível.</p>
 
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+               <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Fale Conosco</h3>
+              <p>Envie sua mensagem e nossa equipe responderá o mais breve possível.</p>
+
+              <form action="https://script.google.com/macros/s/AKfycbyvLOy0XXre-s9r9beOsz_pgzJlvC7DHQJoT_3a6Nhw9NFBOna7LgM4V-IAKb2FoPNzhA/exec" method="post" class="php-email-form" data-aos="fade-up"
                 data-aos-delay="200">
                 <div class="row gy-4">
 
@@ -473,7 +478,7 @@
                   </div>
 
                   <div class="col-md-6">
-                    <input id="ramo_contato" type="text" name="ramo" class="form-control" placeholder="Empresa/Ramo"
+                    <input id="ramo_contato" type="text" name="ramo" class="form-control" placeholder="Segmento/Ramo"
                       required="">
                   </div>
 
@@ -488,17 +493,16 @@
                   </div>
 
                   <div class="col-12">
-                    <textarea id="mensagem_contato" class="form-control" name="message" rows="6"
-                      placeholder="Sua Mensagem" required=""></textarea>
+                    <textarea id="mensagem_contato" class="form-control" name="message" rows="6" placeholder="Mensagem"
+                      required=""></textarea>
                   </div>
 
                   <div class="col-12 text-center">
-                    <div class="loading">Carregando...</div>
+                    <div class="loading">Loading</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Sua mensagem foi enviada com sucesso! Obrigado!</div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                    <button type="submit" class="btn">Enviar mensagem</button>
-
+                    <button type="submit" class="btn">Send Message</button>
                   </div>
 
                 </div>
